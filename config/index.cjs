@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'a6e53fcf0c247d4141ee0a34414f4cc5',
 
   PROVINCE: '湖南',
-  CITY: '澧县',
+  CITY: '常德',
 
   USERS: [
     {
