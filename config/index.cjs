@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'a6e53fcf0c247d4141ee0a34414f4cc5',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '湖南',
+  CITY: '澧县',
 
   USERS: [
     {
@@ -23,17 +23,13 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oYtrm5v9xDC0AW5zthRHL38aLr6g',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'u046gd4hEbKaxcJDlqclu_OiaAa1AeXmxKVFw4aLk7g',
+      useTemplateId: 'wVUVZ4qw070m6GKfH6GBuQfT73W2D4LXNr7F6jhBeIU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '02-01',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '宝贝', year: '1998', date: '12-16',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '宝贝', year: '1999', date: '02-01',
         },
         {
           type: '节日', name: '相识纪念日', year: '2022', date: '07-09',
@@ -43,7 +39,6 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-07-24' },
-        // 结婚纪念日
       ],
     },
   ],
